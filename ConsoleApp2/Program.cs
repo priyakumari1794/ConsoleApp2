@@ -12,6 +12,7 @@ namespace ConsoleApp2
                 if(i == 3)
                 {
                     Console.WriteLine("  valid");
+                    Console.WriteLine("Please Proceed");
                 }
                 else
                 {
