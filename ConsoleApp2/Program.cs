@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace ConsoleApp2
 {
@@ -6,11 +6,17 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            int x = 4;
-            while (x<=10)
+            int i;
+            for (i=0;i <=4;i++)
             {
-                Console.WriteLine(x);
-                x++;
+                if(i != 3)
+                {
+                    Console.WriteLine(" full valid");
+                }
+                else
+                {
+                    Console.WriteLine(" not valid");
+                }
             }
          
         }
