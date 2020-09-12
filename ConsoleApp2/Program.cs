@@ -9,9 +9,9 @@ namespace ConsoleApp2
             int i;
             for (i=0;i <=4;i++)
             {
-                if(i != 3)
+                if(i == 3)
                 {
-                    Console.WriteLine(" full valid");
+                    Console.WriteLine("  valid");
                 }
                 else
                 {
